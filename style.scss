@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 50px auto 50px auto;
+}
+
+#header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section{
+    text-align: center;
+}
+
+.game-board{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.btn-slot{
+    width: 100%;
+    height: 110px;
+    padding-bottom: 100px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: rgb(194, 194, 194);
+}
+.btn-slot:hover{
+    background-color: rgb(161, 161, 161);
+}
+
+.filledX{
+    color: rgb(141, 8, 8);
+    font-size: 5rem;
+}
+
+.filledO{
+    color: blue;
+    font-size: 5rem;
+}
+
+.result{
+    text-align: center;
+}
+
+.turn-section{
+    text-align: center;
+}
+
+.turn-title{
+    margin-top: 10px;
+}
+
+.reset-btn {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
